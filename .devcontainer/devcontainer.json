@@ -1,10 +1,10 @@
 {
-    "name": "flutter_2_docker",
+    "name": "flutter_docker",
     "context": "..",
     "dockerFile": "../Dockerfile",
     "remoteUser": "developer",
     "settings": {
-      "terminal.integrated.shell.linux": null
+      "terminal.integrated.profile.linux": null
     },
     "runArgs": ["--privileged"],
     "extensions": ["dart-code.flutter"],
